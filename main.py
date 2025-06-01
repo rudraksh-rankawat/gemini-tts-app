@@ -45,6 +45,7 @@ def play_response():
 
 
 window = tk.Tk()
+window.title("Ask Gemini")
 entry = tk.Entry(window)
 entry.grid(row=0, columnspan=10)
 
